@@ -1,0 +1,9 @@
+package com.testCases;
+
+public class Test1 {
+	@Test
+	public void testcase1(){
+		
+	}
+
+}

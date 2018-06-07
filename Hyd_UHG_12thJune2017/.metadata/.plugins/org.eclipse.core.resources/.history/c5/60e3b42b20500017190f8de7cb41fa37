@@ -1,0 +1,14 @@
+package com.propertiesFile;
+
+import java.io.FileInputStream;
+import java.util.Properties;
+
+public class WorkWithPropertiesFile {
+
+	public static void main(String[] args) {
+		FileInputStream fip=new FileInputStream("D:\Hyd_UHG_12thJune2017\JavaBasics\src\com\propertiesFile\GlobalVariable.Properties")
+		Properties prop=new Properties();
+		prop.load
+	}
+
+}

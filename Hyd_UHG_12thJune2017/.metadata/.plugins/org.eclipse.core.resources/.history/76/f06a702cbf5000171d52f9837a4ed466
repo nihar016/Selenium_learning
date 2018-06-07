@@ -1,0 +1,36 @@
+package com.testCasesForActiTime;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.annotations.Test;
+
+public class Test1 {
+	
+	public WebDriver driver;
+	public String Browser="mozilla";
+	
+	@Test
+	public void testcase1(){
+		if(Browser.equalsIgnoreCase("chrome")){
+			System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+			driver=new ChromeDriver(); // Open Browser
+		}else if(Browser.equalsIgnoreCase("ie")){
+			System.setProperty("webdriver.ie.driver", "IEDriverServer.exe");
+			 driver=new InternetExplorerDriver();
+		}else if(Browser.equalsIgnoreCase("mozilla")){
+			System.setProperty("webdriver.firefox.marionette", "geckodriver.exe");
+			driver=new FirefoxDriver(); // Open Browser
+		}
+		driver.get("http://localhost:9000/login.do"); //Open url
+		driver.manage().window().maximize(); // maximize the window
+		//Login
+		WebElement username = driver.findElement(By.xpath(".//*[@id='loginFormContainer']/tbody/tr[1]/td/table/tbody/tr[1]/td[2]/input"));
+		username.sendKeys("admin");
+		driver.findElement(By.xpath(".//*[@id='loginFormContainer']/tbody/tr[1]/td/table/tbody/tr[2]/td[2]/input")).sendKeys("manager");
+		driver.findElement(By.xpath(".//*[@id='loginButton']")).click();
+}
+}

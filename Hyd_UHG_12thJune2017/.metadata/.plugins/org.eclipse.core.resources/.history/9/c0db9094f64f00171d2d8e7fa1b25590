@@ -1,0 +1,16 @@
+package com.annotations;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class AssertionExample {
+	@Test
+	public void assertionex(){
+		int ExpLinks=10;
+		int ActLinks=10; // Selenium code
+		System.out.println("A");
+		Assert.assertEquals(ActLinks, ExpLinks);
+		System.out.println("B");
+	}
+
+}

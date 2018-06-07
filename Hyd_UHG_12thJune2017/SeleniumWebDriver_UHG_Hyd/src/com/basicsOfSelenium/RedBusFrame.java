@@ -1,0 +1,42 @@
+package com.basicsOfSelenium;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.annotations.Test;
+
+public class RedBusFrame {
+	public WebDriver driver;
+	public String Browser="chrome";
+	
+	@Test
+	public void workwithAlert() throws Throwable{
+		if(Browser.equalsIgnoreCase("chrome")){
+			System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+			driver=new ChromeDriver(); // Open Browser
+		}else if(Browser.equalsIgnoreCase("ie")){
+			System.setProperty("webdriver.ie.driver", "IEDriverServer.exe");
+			 driver=new InternetExplorerDriver();
+		}else if(Browser.equalsIgnoreCase("mozilla")){
+			System.setProperty("webdriver.firefox.marionette", "geckodriver.exe");
+			driver=new FirefoxDriver(); // Open Browser
+		}
+		driver.get("https://www.redbus.in/"); //Open url
+		driver.manage().window().maximize(); // maximize the window
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		//click on arraw down in the redbus support
+		driver.findElement(By.xpath(".//*[@id='support-options']/div")).click();
+		//click on write to us
+		driver.findElement(By.xpath(".//*[@id='chat-with-us-option']")).click();
+		//switch to frame
+	//	driver.switchTo().frame("modalIframe");
+		driver.switchTo().frame(driver.findElement(By.className("modalIframe")));
+		//Enter name in the frame
+		driver.findElement(By.xpath(".//*[@id='customer_name']")).sendKeys("srinivasa");
+		
+}
+}

@@ -1,0 +1,20 @@
+package com.basicsOfCoreJava;
+
+public class Myfunction {
+
+	public static void main(String[] args) {
+
+		System.out.println("A");
+		myfun();
+		System.out.println("B");
+		myfun();
+		System.out.println("C");
+		myfun();
+	}
+	
+	public static void myfun(){
+		//Login script
+		System.out.println("Login");
+	}
+
+}

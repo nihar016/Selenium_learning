@@ -1,0 +1,22 @@
+package com.basicsOfSelenium;
+
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+
+
+public class WorkWithDiffBrowsers {
+	@Test
+	public void workwithbro(){
+	//	System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+	//	ChromeDriver driver=new ChromeDriver(); // Open Browser
+		
+		System.setProperty("webdriver.firefox.marionette", "geckodriver.exe");
+		FirefoxDriver driver=new FirefoxDriver(); // Open Browser
+		
+		driver.get("http://www.seleniumhq.org/"); //Open url
+		driver.manage().window().maximize(); // maximize the window
+	}
+
+}

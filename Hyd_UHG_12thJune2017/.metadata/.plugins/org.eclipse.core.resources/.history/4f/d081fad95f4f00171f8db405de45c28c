@@ -1,0 +1,20 @@
+package com.collectionAPIS;
+
+import java.util.HashSet;
+
+public class HashSetExample {
+
+	public static void main(String[] args) {
+	
+		HashSet<String> s=new HashSet<String>();
+		s.add("H");
+		s.add("C");
+		s.add("B");
+		s.add("H");
+		s.add("C");
+		
+		System.out.println("size="+s.size());
+
+	}
+
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.testCases.OpenAndCloseBrowser">
+        <methods>
+          <include name="asuite"/>
+          <include name="bsuite"/>
+        </methods>
+      </class> <!-- com.testCases.OpenAndCloseBrowser -->
+      <class name="com.testCases.Test456">
+        <methods>
+          <include name="testcase123"/>
+          <include name="bmethod"/>
+        </methods>
+      </class> <!-- com.testCases.Test456 -->
+      <class name="com.testCases.Test123">
+        <methods>
+          <include name="bmethod"/>
+        </methods>
+      </class> <!-- com.testCases.Test123 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,17 @@
+package com.inheritenceExmaple;
+//ChildClass 
+public class BMW extends Car{
+	
+	public BMW(){
+		System.out.println("We are BMW constructor");
+	}
+	
+	public void Start(){
+		System.out.println("BMW has own way starting a car...");
+	}
+	
+	public void theftsafty(){
+		System.out.println("This is spl feature in BMW");
+	}
+
+}

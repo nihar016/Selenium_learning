@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.testCases.Test3">
+        <methods>
+          <include name="testcase3"/>
+        </methods>
+      </class> <!-- com.testCases.Test3 -->
+      <class name="com.testCases.OpenAndCloseBrowser">
+        <methods>
+          <include name="asuite"/>
+          <include name="bsuite"/>
+        </methods>
+      </class> <!-- com.testCases.OpenAndCloseBrowser -->
+      <class name="com.testCases.Test2">
+        <methods>
+          <include name="testcase2"/>
+        </methods>
+      </class> <!-- com.testCases.Test2 -->
+      <class name="com.testCases.Test1">
+        <methods>
+          <include name="testcase1"/>
+        </methods>
+      </class> <!-- com.testCases.Test1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

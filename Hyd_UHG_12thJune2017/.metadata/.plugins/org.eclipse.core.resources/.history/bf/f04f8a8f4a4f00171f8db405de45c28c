@@ -1,0 +1,21 @@
+package com.constructorExamples;
+
+public class Car {
+	
+	public Car(){
+		System.out.println("We are in Car constructor...");
+	}
+	
+	public Car(String m){
+		System.out.println("model of the car is "+m);
+	}
+	
+	public static void main(String[] args) {
+		new Car("BMW");
+
+	}
+
+}
+//Constructor is a method in the class whose name is same as class name.
+//Rule1: Should not be static 
+//Rule2: Should not have return datatype.

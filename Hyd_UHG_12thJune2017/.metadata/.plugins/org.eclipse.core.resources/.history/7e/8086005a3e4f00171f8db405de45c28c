@@ -1,0 +1,32 @@
+package com.basicsOfCoreJava;
+
+public class Myfunction {
+
+	public static void main(String[] args) {
+
+		/*System.out.println("A");
+		myfun();
+		System.out.println("B");
+		myfun();
+		System.out.println("C");
+		myfun();*/
+		int x=10;
+		int y=20;
+		System.out.println("A");
+		Add2(x,y);
+		System.out.println("B");
+		
+		
+	}
+	
+	public static void Add2(int a,int b){
+		int c=a+b;
+		System.out.println("sum="+c);
+	}
+	
+	/*public static void myfun(){
+		//Login script
+		System.out.println("Login");
+	}*/
+
+}

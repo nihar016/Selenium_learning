@@ -1,0 +1,23 @@
+package com.testCases;
+
+import org.testng.annotations.Test;
+
+import com.library.Library;
+
+public class Test123 extends Library{
+	@Test
+	public void testcase123(String cname,String cdesc,String cradio){
+		login();
+		clickontask();
+		clickonproandcustomer();
+		clickonaddnewcustomer();
+		createcustomer(cname,cdesc,cradio);
+		verifysucessmsg();
+		assertall();
+	}
+	
+	public void getdata(){
+		
+	}
+	
+}

@@ -1,0 +1,7 @@
+package com.interfaceExample;
+
+public class ICICI implements RBI {
+	
+	
+
+}

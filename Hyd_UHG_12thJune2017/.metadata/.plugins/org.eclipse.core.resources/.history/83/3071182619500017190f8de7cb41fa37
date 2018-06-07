@@ -1,0 +1,19 @@
+package com.annotations;
+
+import org.testng.annotations.Test;
+
+import xls.ShineXlsReader;
+
+public class ParamWithExcel {
+    @Test
+	public void testcase1(String cname,String cpwd){
+		//Selenium code to login
+		System.out.println(cname+" password is "+cpwd);
+	}
+    
+    public void getdata(){
+    	ShineXlsReader xls = new ShineXlsReader("TestData.xlsx");
+    	int rcount = xls.getRowCount("Sheet1");
+    	int ccount=xls.getColumnCount("Sheet1");
+    }
+}

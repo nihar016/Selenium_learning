@@ -1,0 +1,34 @@
+package com.annotations;
+
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
+public class DependencyExample {
+
+	
+	@Test(priority=1)
+	public void login(){
+		//Selenium code to Login
+		SoftAssert st=new SoftAssert();
+		st.assertTrue(true);
+		System.out.println("Login");
+		st.assertAll();
+	} 
+	
+	
+	@Test(priority=2,dependsOnMethods={"login"})
+	public void composemail(){
+		SoftAssert st=new SoftAssert();
+		st.assertTrue(false);
+		//Selenium code to composemail
+		System.out.println("Composemail");
+		st.assertAll();
+	} 
+	
+	
+	@Test(priority=3,dependsOnMethods={"login","composemail"})
+	public void Savemail(){
+		//Selenium code to SaveMail
+		System.out.println("SaveMail");
+	} 
+}

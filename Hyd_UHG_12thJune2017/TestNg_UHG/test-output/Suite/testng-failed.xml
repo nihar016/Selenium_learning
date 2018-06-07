@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.annotations.SkipTestCase">
+        <methods>
+          <include name="composemail"/>
+        </methods>
+      </class> <!-- com.annotations.SkipTestCase -->
+      <class name="com.annotations.SoftAssertionExample">
+        <methods>
+          <include name="testcase1"/>
+        </methods>
+      </class> <!-- com.annotations.SoftAssertionExample -->
+      <class name="com.annotations.OneMoreMethodFail">
+        <methods>
+          <include name="testcase1"/>
+        </methods>
+      </class> <!-- com.annotations.OneMoreMethodFail -->
+      <class name="com.annotations.OneMoreAssertion">
+        <methods>
+          <include name="testcase1"/>
+        </methods>
+      </class> <!-- com.annotations.OneMoreAssertion -->
+      <class name="com.annotations.Annot">
+        <methods>
+          <include name="aclass"/>
+          <include name="bmethod"/>
+          <include name="bclass"/>
+          <include name="amethod"/>
+        </methods>
+      </class> <!-- com.annotations.Annot -->
+      <class name="com.annotations.DependencyExample">
+        <methods>
+          <include name="login"/>
+          <include name="composemail"/>
+          <include name="Savemail"/>
+        </methods>
+      </class> <!-- com.annotations.DependencyExample -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

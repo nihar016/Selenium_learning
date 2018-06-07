@@ -1,0 +1,24 @@
+package com.collectionAPIS;
+
+import java.util.ArrayList;
+
+public class ArrayListExample {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Object> ar=new ArrayList<Object>();
+		
+		ar.add("B");
+		ar.add("H");
+		ar.add("D");
+		ar.add("B");
+		ar.add("H");
+		
+		System.out.println("size="+ar.size());
+		for(int i=0;i<ar.size();i++){
+			System.out.println(ar.get(i));
+		}
+
+	}
+
+}

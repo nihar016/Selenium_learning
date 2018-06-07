@@ -1,0 +1,41 @@
+package com.basicsOfCoreJava;
+
+public class Myfunction {
+	
+	String model;
+	int wheels;
+	
+	public  int Add2(int a,int b){
+		int c=a+b;
+		System.out.println("sum="+c);
+		return c;
+	}
+	
+
+	public static void main(String[] args) {
+		
+		
+/*
+		System.out.println("A");
+		myfun();
+		System.out.println("B");
+		myfun();
+		System.out.println("C");
+		myfun();
+		int x=10;
+		int y=20;
+		System.out.println("A");
+		int z=Add2(x,y)+30;
+		System.out.println("Z="+z);
+		System.out.println("B");*/
+		
+		
+	}
+	
+	
+	/*public static void myfun(){
+		//Login script
+		System.out.println("Login");
+	}*/
+
+}

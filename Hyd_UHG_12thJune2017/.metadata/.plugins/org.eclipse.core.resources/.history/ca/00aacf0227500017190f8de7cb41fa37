@@ -1,0 +1,11 @@
+package com.basicsOfSelenium;
+
+import org.testng.annotations.Test;
+
+public class WorkWithDiffBrowsers {
+	@Test
+	public void workwithbro(){
+		
+	}
+
+}

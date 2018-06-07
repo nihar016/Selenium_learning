@@ -1,0 +1,5 @@
+
+Browsertype=chrome
+uname=admin
+upassword=manager
+url=http://tmc-pc:9000/login.do

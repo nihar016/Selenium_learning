@@ -1,0 +1,28 @@
+package com.collectionAPIS;
+
+import java.util.Enumeration;
+import java.util.Hashtable;
+
+public class HashtableExample {
+
+	public static void main(String[] args) {
+		
+		Hashtable<Object, Object> ht=new Hashtable<Object, Object>();
+		
+		ht.put("cName", "UHG");
+		ht.put("Location", "Hyd");
+		ht.put("Country", "India");
+		
+	/*	System.out.println(ht.get("cName"));
+		System.out.println(ht.get("Location"));
+		System.out.println(ht.get("Country"));*/
+		Enumeration<Object> en=ht.keys();
+		Enumeration<Object> en1=ht.elements();
+		while(en.hasMoreElements()){
+			System.out.println(en.nextElement()+"======="+en1.nextElement());
+		}
+		
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.annotations.SoftAssertionExample"/>
+      <class name="com.annotations.DependencyExample"/>
+      <class name="com.annotations.AssertionExample"/>
+      <class name="com.annotations.OneMoreAssertion"/>
+      <class name="com.annotations.SkipTestCase"/>
+      <class name="com.annotations.Annot"/>
+      <class name="com.annotations.OneMoreMethodFail"/>
+      <class name="com.annotations.PriorityExample"/>
+      <class name="com.annotations.ParamWithExcel"/>
+      <class name="com.annotations.WorkWithExcel"/>
+      <class name="com.annotations.Param"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

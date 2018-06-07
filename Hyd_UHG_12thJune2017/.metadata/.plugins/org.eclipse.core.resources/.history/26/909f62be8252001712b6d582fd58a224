@@ -1,0 +1,25 @@
+package com.testCases;
+
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+import com.pageFactory.Entertimetrack;
+import com.pageFactory.Loginpage;
+import com.pageFactory.Opentask;
+import com.testBase.TestBase;
+
+public class Test1 extends TestBase{
+	@Test
+	public void testcase1() throws Throwable{
+		
+		OpenBrowser();
+		Loginpage loginpage = PageFactory.initElements(driver, Loginpage.class);
+		loginpage.login();
+		Entertimetrack entertimetrack = PageFactory.initElements(driver, Entertimetrack.class);
+		entertimetrack.clickontask();
+		Opentask opentask = PageFactory.initElements(driver, Opentask.class);
+		opentask.clickonproandcust();
+		
+	}
+
+}

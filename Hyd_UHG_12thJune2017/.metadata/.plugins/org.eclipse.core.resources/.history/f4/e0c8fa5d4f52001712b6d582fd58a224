@@ -1,0 +1,35 @@
+package com.testCases;
+
+import org.testng.annotations.Test;
+
+import com.library.Library;
+
+import xls.ShineXlsReader;
+
+public class Test123 extends Library{
+	@Test
+	public void testcase123(String cname,String cdesc,String cradio){
+		login();
+		clickontask();
+		clickonproandcustomer();
+		clickonaddnewcustomer();
+		createcustomer(cname,cdesc,cradio);
+		verifysucessmsg();
+		assertall();
+	}
+	
+	public void getdata(){
+		ShineXlsReader xls=new ShineXlsReader(".\\src\\com\\excelFiles\\DataPool.xlsx");
+		int rcount = xls.getRowCount("Test1");
+		int ccount = xls.getColumnCount("Test1");
+		Object obj[][]=new Object[rcount-1][ccount];
+		for(int i=2;i<=rcount;i++){
+			for(int j=0;j<ccount;j++){
+				obj[i-2][j]=xls.getCellData("Test1", j, i);
+			}
+		}
+		
+		return obj;
+	}
+	
+}

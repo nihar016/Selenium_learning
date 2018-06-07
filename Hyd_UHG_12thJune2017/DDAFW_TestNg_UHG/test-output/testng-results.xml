@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20784" started-at="2017-06-16T04:54:41Z" finished-at="2017-06-16T04:55:02Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20784" started-at="2017-06-16T04:54:41Z" finished-at="2017-06-16T04:55:02Z">
+      <class name="com.testCases.OpenAndCloseBrowser">
+        <test-method status="PASS" signature="bsuite()[pri:0, instance:com.testCases.OpenAndCloseBrowser@a3ffec]" name="bsuite" is-config="true" duration-ms="14178" started-at="2017-06-16T10:24:27Z" finished-at="2017-06-16T10:24:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsuite -->
+        <test-method status="PASS" signature="asuite()[pri:0, instance:com.testCases.OpenAndCloseBrowser@a3ffec]" name="asuite" is-config="true" duration-ms="1545" started-at="2017-06-16T10:25:02Z" finished-at="2017-06-16T10:25:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asuite -->
+      </class> <!-- com.testCases.OpenAndCloseBrowser -->
+      <class name="com.testCases.Test123">
+        <test-method status="PASS" signature="testcase123(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testCases.Test123@1caeb3e]" name="testcase123" duration-ms="9649" started-at="2017-06-16T10:24:43Z" data-provider="T1" finished-at="2017-06-16T10:24:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CustomerA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DescriptionA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cradio1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase123 -->
+        <test-method status="PASS" signature="testcase123(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testCases.Test123@1caeb3e]" name="testcase123" duration-ms="5255" started-at="2017-06-16T10:24:53Z" data-provider="T1" finished-at="2017-06-16T10:24:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CustomerB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DescriptionB]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cradio2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase123 -->
+        <test-method status="PASS" signature="testcase123(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testCases.Test123@1caeb3e]" name="testcase123" duration-ms="3944" started-at="2017-06-16T10:24:58Z" data-provider="T1" finished-at="2017-06-16T10:25:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CustomerC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DescriptionC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cradio3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase123 -->
+      </class> <!-- com.testCases.Test123 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

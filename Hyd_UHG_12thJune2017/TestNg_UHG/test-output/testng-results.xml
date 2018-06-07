@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="53" started-at="2017-06-13T09:46:44Z" finished-at="2017-06-13T09:46:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="53" started-at="2017-06-13T09:46:44Z" finished-at="2017-06-13T09:46:44Z">
+      <class name="com.annotations.Annot">
+        <test-method status="PASS" signature="bclass()[pri:0, instance:com.annotations.Annot@39f31e]" name="bclass" is-config="true" duration-ms="9" started-at="2017-06-13T15:16:44Z" finished-at="2017-06-13T15:16:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclass -->
+        <test-method status="PASS" signature="bmethod()[pri:0, instance:com.annotations.Annot@39f31e]" name="bmethod" is-config="true" duration-ms="0" started-at="2017-06-13T15:16:44Z" finished-at="2017-06-13T15:16:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:com.annotations.Annot@39f31e]" name="testcase1" duration-ms="11" started-at="2017-06-13T15:16:44Z" finished-at="2017-06-13T15:16:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method status="PASS" signature="amethod()[pri:0, instance:com.annotations.Annot@39f31e]" name="amethod" is-config="true" duration-ms="0" started-at="2017-06-13T15:16:44Z" finished-at="2017-06-13T15:16:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amethod -->
+        <test-method status="PASS" signature="testcase2()[pri:0, instance:com.annotations.Annot@39f31e]" name="testcase2" duration-ms="1" started-at="2017-06-13T15:16:44Z" finished-at="2017-06-13T15:16:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method status="PASS" signature="bmethod()[pri:0, instance:com.annotations.Annot@39f31e]" name="bmethod" is-config="true" duration-ms="0" started-at="2017-06-13T15:16:44Z" finished-at="2017-06-13T15:16:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method status="PASS" signature="amethod()[pri:0, instance:com.annotations.Annot@39f31e]" name="amethod" is-config="true" duration-ms="0" started-at="2017-06-13T15:16:44Z" finished-at="2017-06-13T15:16:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amethod -->
+        <test-method status="PASS" signature="testcase3()[pri:0, instance:com.annotations.Annot@39f31e]" name="testcase3" duration-ms="1" started-at="2017-06-13T15:16:44Z" finished-at="2017-06-13T15:16:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase3 -->
+        <test-method status="PASS" signature="bmethod()[pri:0, instance:com.annotations.Annot@39f31e]" name="bmethod" is-config="true" duration-ms="0" started-at="2017-06-13T15:16:44Z" finished-at="2017-06-13T15:16:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method status="PASS" signature="amethod()[pri:0, instance:com.annotations.Annot@39f31e]" name="amethod" is-config="true" duration-ms="1" started-at="2017-06-13T15:16:44Z" finished-at="2017-06-13T15:16:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amethod -->
+        <test-method status="PASS" signature="aclass()[pri:0, instance:com.annotations.Annot@39f31e]" name="aclass" is-config="true" duration-ms="0" started-at="2017-06-13T15:16:44Z" finished-at="2017-06-13T15:16:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aclass -->
+      </class> <!-- com.annotations.Annot -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

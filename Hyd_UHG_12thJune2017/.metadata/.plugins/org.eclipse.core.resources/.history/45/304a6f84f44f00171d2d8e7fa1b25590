@@ -1,0 +1,27 @@
+package com.annotations;
+
+import org.testng.annotations.Test;
+
+public class PriorityExample {
+
+	
+	@Test
+	public void login(){
+		//Selenium code to Login
+		System.out.println("Login");
+	} 
+	
+	
+	@Test
+	public void composemail(){
+		//Selenium code to composemail
+		System.out.println("Composemail");
+	} 
+	
+	
+	@Test
+	public void Savemail(){
+		//Selenium code to SaveMail
+		System.out.println("SaveMail");
+	} 
+}

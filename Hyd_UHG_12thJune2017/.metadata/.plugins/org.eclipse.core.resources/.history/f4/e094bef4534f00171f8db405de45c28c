@@ -1,0 +1,12 @@
+package com.interfaceExample;
+
+public class ICICI implements RBI {
+	
+	public void minbalsaving(){
+		System.out.println("5000");
+	}
+	
+	public void minbalcurrent(){
+		System.out.println("10000");
+	}
+}

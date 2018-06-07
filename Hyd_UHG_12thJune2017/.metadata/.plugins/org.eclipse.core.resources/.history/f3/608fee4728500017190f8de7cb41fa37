@@ -1,0 +1,16 @@
+package com.basicsOfSelenium;
+
+import org.junit.Test;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class WorkWithDiffBrowsers {
+	@Test
+	public void workwithbro(){
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+		ChromeDriver driver=new ChromeDriver(); // Open Browser
+		driver.get("http://www.seleniumhq.org/"); //Open url
+		driver.manage().window().maximize(); // maximize the window
+	}
+
+}

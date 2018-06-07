@@ -1,0 +1,5 @@
+package com.interfaceExample;
+
+public interface RBI {
+
+}
